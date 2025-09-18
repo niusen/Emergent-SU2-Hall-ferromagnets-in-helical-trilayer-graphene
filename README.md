@@ -1,4 +1,4 @@
-This represitory contains the code and data for arXiv:2405.08386, which will be published in PRL (see https://doi.org/10.1103/rwd7-92z9).
+This represitory contains the code and data for arxiv/2505.24146, which will be published in PRL (see https://doi.org/10.1103/rwd7-92z9).
 
 The "code" folder contains julia codes for exact diagonalalization calculations and matlab codes for calculating structure factor S(q), pair correlation functions G(r), and emergent pseudospin quantum numbers of the SU(2) Hall ferromagnet phase.
 To use the julia codes, one need to set the finite clusters defined by (V1,V2), see the table S1 in Supplemental Materials. 
