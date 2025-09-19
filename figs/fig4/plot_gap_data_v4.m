@@ -8,7 +8,7 @@ length_y=0.18;
 pos=[pos_x0,2/3+pos_y0,length_x,length_y];
 subplot('Position',pos);
 
-addpath('D:\My Documents\Code\matlab\m\twist_bilayer\ED_TBG\Helical_trilayer\Chern_mosaic\split_band\ED_spectrum\scan_waa\theta_1.44_sublattice_4_6_8\N27');
+%addpath('D:\My Documents\Code\matlab\m\twist_bilayer\ED_TBG\Helical_trilayer\Chern_mosaic\split_band\ED_spectrum\scan_waa\theta_1.44_sublattice_4_6_8\N27');
 Kg_set=[6+1,18+1,21+1];
 Ng_set=[1,1,1];
 
@@ -86,7 +86,7 @@ text(0.2,1,'QHC',  'Interpreter', 'latex', 'fontsize', 15,'color','k');
 pos=[pos_x0,1/3+0.02+pos_y0,length_x,length_y];
 subplot('Position',pos);
 
-addpath('D:\My Documents\Code\matlab\m\twist_bilayer\ED_TBG\Helical_trilayer\Chern_mosaic\split_band\ED_spectrum\scan_waa\theta_1.44_sublattice_4_6_8\N27_HF_2valley');
+%addpath('D:\My Documents\Code\matlab\m\twist_bilayer\ED_TBG\Helical_trilayer\Chern_mosaic\split_band\ED_spectrum\scan_waa\theta_1.44_sublattice_4_6_8\N27_HF_2valley');
 Kg_set=[6+1,18+1,21+1];
 Ng_set=[1,1,1];
 
@@ -159,7 +159,7 @@ text(0.2,0.7,'QHC',  'Interpreter', 'latex', 'fontsize', 15,'color','k');
 pos=[pos_x0+1/3,2/3+pos_y0,length_x,length_y];
 subplot('Position',pos);
 
-addpath('D:\My Documents\Code\matlab\m\twist_bilayer\ED_TBG\Helical_trilayer\Chern_mosaic\split_band\ED_spectrum\scan_waa\theta_1.44_sublattice_4_6_8\N28\spectrum_scan_waa')
+%addpath('D:\My Documents\Code\matlab\m\twist_bilayer\ED_TBG\Helical_trilayer\Chern_mosaic\split_band\ED_spectrum\scan_waa\theta_1.44_sublattice_4_6_8\N28\spectrum_scan_waa')
 Kg_set=[0+1,1+1,11+1,15+1];
 Ng_set=[3,4,4,4];
 
@@ -261,7 +261,7 @@ text(0.2,2,'QHF',  'Interpreter', 'latex', 'fontsize', 15,'color','k');
 pos=[pos_x0+1/3,1/3+0.02+pos_y0,length_x,length_y];
 subplot('Position',pos);
 
-addpath('D:\My Documents\Code\matlab\m\twist_bilayer\ED_TBG\Helical_trilayer\Chern_mosaic\split_band\ED_spectrum\scan_waa\theta_1.44_sublattice_4_6_8\N28_HF_2valley\spectrum_scan_waa')
+%addpath('D:\My Documents\Code\matlab\m\twist_bilayer\ED_TBG\Helical_trilayer\Chern_mosaic\split_band\ED_spectrum\scan_waa\theta_1.44_sublattice_4_6_8\N28_HF_2valley\spectrum_scan_waa')
 Kg_set=[0+1,1+1,11+1,15+1];
 Ng_set=[3,4,4,4];
 
@@ -363,7 +363,7 @@ text(0.2,2,'QHF',  'Interpreter', 'latex', 'fontsize', 15,'color','k');
 pos=[pos_x0+2/3,2/3+pos_y0,length_x,length_y];
 subplot('Position',pos);
 
-addpath('D:\My Documents\Code\matlab\m\twist_bilayer\ED_TBG\Helical_trilayer\Chern_mosaic\split_band\ED_spectrum\scan_waa\theta_1.44_sublattice_4_6_8\N24A')
+%addpath('D:\My Documents\Code\matlab\m\twist_bilayer\ED_TBG\Helical_trilayer\Chern_mosaic\split_band\ED_spectrum\scan_waa\theta_1.44_sublattice_4_6_8\N24A')
 Kg_set=[6+1,13+1,20+1];
 Ng_set=[1,1,1];
 
@@ -439,7 +439,7 @@ pos=[pos_x0+2/3,1/3+0.02+pos_y0,length_x,length_y];
 subplot('Position',pos);
 
 
-addpath('D:\My Documents\Code\matlab\m\twist_bilayer\ED_TBG\Helical_trilayer\Chern_mosaic\split_band\ED_spectrum\scan_waa\theta_1.44_sublattice_4_6_8\N24A_HF_2valley')
+%addpath('D:\My Documents\Code\matlab\m\twist_bilayer\ED_TBG\Helical_trilayer\Chern_mosaic\split_band\ED_spectrum\scan_waa\theta_1.44_sublattice_4_6_8\N24A_HF_2valley')
 Kg_set=[6+1,13+1,20+1];
 Ng_set=[1,1,1];
 

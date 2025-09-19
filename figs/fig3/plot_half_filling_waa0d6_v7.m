@@ -10,7 +10,7 @@ length_y=0.32;
 pos=[pos_x0,0.5+pos_y0,length_x,length_y];
 subplot('Position',pos);
 
-addpath('D:\My Documents\Code\matlab\m\twist_bilayer\ED_TBG\Helical_trilayer\Chern_mosaic\split_band\ED_spectrum\scan_waa\theta_1.44_sublattice_4_6_8\N28_HF_2valley')
+%%addpath('D:\My Documents\Code\matlab\m\twist_bilayer\ED_TBG\Helical_trilayer\Chern_mosaic\split_band\ED_spectrum\scan_waa\theta_1.44_sublattice_4_6_8\N28_HF_2valley')
 
 N=28;
 En_set=cell(N);
@@ -103,7 +103,7 @@ set(gca,'TickLength',[0.03, 0.01])
 pos=[pos_x0,pos_y0,length_x*0.9,length_y];
 subplot('Position',pos);
 
-addpath('D:\My Documents\Code\matlab\m\twist_bilayer\ED_TBG\Helical_trilayer\Chern_mosaic\split_band\ED_spectrum\scan_waa\theta_1.44_sublattice_4_6_8\N28_HF_2valley\order')
+%addpath('D:\My Documents\Code\matlab\m\twist_bilayer\ED_TBG\Helical_trilayer\Chern_mosaic\split_band\ED_spectrum\scan_waa\theta_1.44_sublattice_4_6_8\N28_HF_2valley\order')
 load order_theta1.44_waa0.6_epsilon4_Np14;
 
 
@@ -157,7 +157,7 @@ subplot('Position',pos);
 
 
 
-addpath('D:\My Documents\Code\matlab\m\twist_bilayer\ED_TBG\Helical_trilayer\Chern_mosaic\split_band\ED_spectrum\scan_waa\theta_1.44_sublattice_4_6_8\N16_HF_2valley')
+%addpath('D:\My Documents\Code\matlab\m\twist_bilayer\ED_TBG\Helical_trilayer\Chern_mosaic\split_band\ED_spectrum\scan_waa\theta_1.44_sublattice_4_6_8\N16_HF_2valley')
 load Es_16_8_waa0.6.mat;
 Ns=16;
 %3,2,2,2
@@ -169,7 +169,7 @@ end
 plot(1/Ns,E_all(10)-E_all(1),'bo','MarkerSize',7);hold on;
 
 
-addpath('D:\My Documents\Code\matlab\m\twist_bilayer\ED_TBG\Helical_trilayer\Chern_mosaic\split_band\ED_spectrum\scan_waa\theta_1.44_sublattice_4_6_8\N20B_HF_2valley')
+%addpath('D:\My Documents\Code\matlab\m\twist_bilayer\ED_TBG\Helical_trilayer\Chern_mosaic\split_band\ED_spectrum\scan_waa\theta_1.44_sublattice_4_6_8\N20B_HF_2valley')
 load Es_20_10_waa0.6.mat;
 Ns=20;
 %3,2,2,2
@@ -182,7 +182,7 @@ plot(1/Ns,E_all(12)-E_all(1),'bo','MarkerSize',7);hold on;
 
 
 
-addpath('D:\My Documents\Code\matlab\m\twist_bilayer\ED_TBG\Helical_trilayer\Chern_mosaic\split_band\ED_spectrum\scan_waa\theta_1.44_sublattice_4_6_8\N24A_HF_2valley')
+%addpath('D:\My Documents\Code\matlab\m\twist_bilayer\ED_TBG\Helical_trilayer\Chern_mosaic\split_band\ED_spectrum\scan_waa\theta_1.44_sublattice_4_6_8\N24A_HF_2valley')
 load Es_24A_12_waa0.6.mat;
 Ns=24;
 %3,3,3,4
@@ -196,7 +196,7 @@ plot(1/Ns,E_all(14)-E_all(1),'bo','MarkerSize',7);hold on;
 
 
 
-addpath('D:\My Documents\Code\matlab\m\twist_bilayer\ED_TBG\Helical_trilayer\Chern_mosaic\split_band\ED_spectrum\scan_waa\theta_1.44_sublattice_4_6_8\N28_HF_2valley')
+%addpath('D:\My Documents\Code\matlab\m\twist_bilayer\ED_TBG\Helical_trilayer\Chern_mosaic\split_band\ED_spectrum\scan_waa\theta_1.44_sublattice_4_6_8\N28_HF_2valley')
 load Es_28_14_waa0.6.mat;
 Ns=28;
 %3,4,4,4
@@ -209,7 +209,7 @@ plot(1/Ns,E_all(16)-E_all(1),'bo','MarkerSize',7);hold on;
 
 
 
-addpath('D:\My Documents\Code\matlab\m\twist_bilayer\ED_TBG\Helical_trilayer\Chern_mosaic\split_band\ED_spectrum\scan_waa\theta_1.44_sublattice_4_6_8\N32_HF_2valley')
+%addpath('D:\My Documents\Code\matlab\m\twist_bilayer\ED_TBG\Helical_trilayer\Chern_mosaic\split_band\ED_spectrum\scan_waa\theta_1.44_sublattice_4_6_8\N32_HF_2valley')
 load Es_32_16_waa0.6.mat;
 Ns=32;
 %5,4,4,4
@@ -254,23 +254,23 @@ subplot('Position',pos);
 
 Ns=[16,20,24,28,32];
 
-addpath('D:\My Documents\Code\matlab\m\twist_bilayer\ED_TBG\Helical_trilayer\Chern_mosaic\split_band\ED_spectrum\scan_waa\theta_1.44_sublattice_4_6_8\N16_HF_2valley\order')
+%addpath('D:\My Documents\Code\matlab\m\twist_bilayer\ED_TBG\Helical_trilayer\Chern_mosaic\split_band\ED_spectrum\scan_waa\theta_1.44_sublattice_4_6_8\N16_HF_2valley\order')
 load("Ns16\Sz_waa0.6_option2.mat");
 Sz_16=real(eig(Op_z));
 
-addpath('D:\My Documents\Code\matlab\m\twist_bilayer\ED_TBG\Helical_trilayer\Chern_mosaic\split_band\ED_spectrum\scan_waa\theta_1.44_sublattice_4_6_8\N20B_HF_2valley\order')
+%addpath('D:\My Documents\Code\matlab\m\twist_bilayer\ED_TBG\Helical_trilayer\Chern_mosaic\split_band\ED_spectrum\scan_waa\theta_1.44_sublattice_4_6_8\N20B_HF_2valley\order')
 load("Ns20\Sz_waa0.6_option2.mat");
 Sz_20=real(eig(Op_z));
 
-addpath('D:\My Documents\Code\matlab\m\twist_bilayer\ED_TBG\Helical_trilayer\Chern_mosaic\split_band\ED_spectrum\scan_waa\theta_1.44_sublattice_4_6_8\N24A_HF_2valley\order_Np12')
+%addpath('D:\My Documents\Code\matlab\m\twist_bilayer\ED_TBG\Helical_trilayer\Chern_mosaic\split_band\ED_spectrum\scan_waa\theta_1.44_sublattice_4_6_8\N24A_HF_2valley\order_Np12')
 load("Ns24\Sz_waa0.6_option2.mat");
 Sz_24=real(eig(Op_z));
 
-addpath('D:\My Documents\Code\matlab\m\twist_bilayer\ED_TBG\Helical_trilayer\Chern_mosaic\split_band\ED_spectrum\scan_waa\theta_1.44_sublattice_4_6_8\N28_HF_2valley\order')
+%addpath('D:\My Documents\Code\matlab\m\twist_bilayer\ED_TBG\Helical_trilayer\Chern_mosaic\split_band\ED_spectrum\scan_waa\theta_1.44_sublattice_4_6_8\N28_HF_2valley\order')
 load("Ns28\Sz_waa0.6_option2.mat");
 Sz_28=real(eig(Op_z));
 
-addpath('D:\My Documents\Code\matlab\m\twist_bilayer\ED_TBG\Helical_trilayer\Chern_mosaic\split_band\ED_spectrum\scan_waa\theta_1.44_sublattice_4_6_8\N32_HF_2valley\order')
+%addpath('D:\My Documents\Code\matlab\m\twist_bilayer\ED_TBG\Helical_trilayer\Chern_mosaic\split_band\ED_spectrum\scan_waa\theta_1.44_sublattice_4_6_8\N32_HF_2valley\order')
 load("Ns32\Sz_waa0.6_option2.mat");
 Sz_32=real(eig(Op_z));
 

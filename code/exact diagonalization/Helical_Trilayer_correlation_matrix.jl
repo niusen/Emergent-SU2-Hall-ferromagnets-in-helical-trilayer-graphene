@@ -454,7 +454,7 @@ parameters=Dict{String,Any}();
 stack="ABA";
 merge!(parameters,Dict{String,Any}("stack"=>stack));
 if stack=="ABA"
-    theta_ = 1.5;
+    theta_ = 1.44;
     Phi=[0,1,-1]*(2*pi/3);
 elseif stack=="AAA"
     theta_ = 0.68;
@@ -474,12 +474,10 @@ merge!(parameters,Dict{String,Any}("valley"=>-1));
 # AB_potential1=[20 -20];
 # AB_potential2=[0 0];
 # AB_potential3=[20 -20];
-# AB_potential1=[-4 4];
-# AB_potential2=[-6 6];
-# AB_potential3=[-8 8];
-AB_potential1=[-8 8];
-AB_potential2=[-8 8];
+AB_potential1=[-4 4];
+AB_potential2=[-6 6];
 AB_potential3=[-8 8];
+
 merge!(parameters,Dict{String,Any}("AB_potential"=>[AB_potential1;AB_potential2;AB_potential3]));#ev
 
 merge!(parameters,Dict{String,Any}("screen_type"=>"No"));#"No","two_gate","single_gate","yukawa"

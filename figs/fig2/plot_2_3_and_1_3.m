@@ -9,7 +9,7 @@ length_y=0.3;
 pos=[pos_x0,0.5+pos_y0,length_x,length_y];
 subplot('Position',pos);
 
-addpath('D:\My Documents\Code\matlab\m\twist_bilayer\ED_TBG\Helical_trilayer\Chern_mosaic\split_band\ED_spectrum\scan_waa\theta_1.44_sublattice_4_6_8\N36_HF_2valley')
+%addpath('D:\My Documents\Code\matlab\m\twist_bilayer\ED_TBG\Helical_trilayer\Chern_mosaic\split_band\ED_spectrum\scan_waa\theta_1.44_sublattice_4_6_8\N36_HF_2valley')
 
 N=36;
 En_set=cell(N);
@@ -97,7 +97,7 @@ pos=[pos_x0+1/3,0.5+pos_y0,length_x,length_y];
 subplot('Position',pos);
 
 
-addpath('D:\My Documents\Code\matlab\m\twist_bilayer\ED_TBG\Helical_trilayer\Chern_mosaic\split_band\ED_spectrum\scan_waa\theta_1.44_sublattice_4_6_8\N36_HF_2valley\Chern')
+%addpath('D:\My Documents\Code\matlab\m\twist_bilayer\ED_TBG\Helical_trilayer\Chern_mosaic\split_band\ED_spectrum\scan_waa\theta_1.44_sublattice_4_6_8\N36_HF_2valley\Chern')
 load Chern_theta1.44_waa0.6_epsilon4_Np24_Lflx_6_K1.mat
 
 
@@ -147,7 +147,7 @@ subplot('Position',pos);
 
 load("D:\My Documents\Code\matlab\m\twist_bilayer\ED_TBG\arXiv2405_08887\data\flatter\mymap.mat")
 
-addpath('D:\My Documents\Code\matlab\m\twist_bilayer\ED_TBG\Helical_trilayer\Chern_mosaic\split_band\ED_spectrum\scan_waa\theta_1.44_sublattice_4_6_8\N36_HF_2valley\paircorrel')
+%addpath('D:\My Documents\Code\matlab\m\twist_bilayer\ED_TBG\Helical_trilayer\Chern_mosaic\split_band\ED_spectrum\scan_waa\theta_1.44_sublattice_4_6_8\N36_HF_2valley\paircorrel')
 
 load Sq_36_24_waa0.6.mat;
 
@@ -204,7 +204,7 @@ pos=[pos_x0,pos_y0,length_x,length_y];
 subplot('Position',pos);
 
 
-addpath('D:\My Documents\Code\matlab\m\twist_bilayer\ED_TBG\Helical_trilayer\Chern_mosaic\split_band\ED_spectrum\scan_waa\theta_1.44_sublattice_4_6_8\N36_HF_2valley')
+%addpath('D:\My Documents\Code\matlab\m\twist_bilayer\ED_TBG\Helical_trilayer\Chern_mosaic\split_band\ED_spectrum\scan_waa\theta_1.44_sublattice_4_6_8\N36_HF_2valley')
 
 N=36;
 En_set=cell(N);
@@ -293,7 +293,7 @@ set(gca,'TickLength',[0.03, 0.01])
 pos=[pos_x0+1/3,pos_y0,length_x,length_y];
 subplot('Position',pos);
 
-addpath('D:\My Documents\Code\matlab\m\twist_bilayer\ED_TBG\Helical_trilayer\Chern_mosaic\split_band\ED_spectrum\scan_waa\theta_1.44_sublattice_4_6_8\N36_HF_2valley\Chern')
+%addpath('D:\My Documents\Code\matlab\m\twist_bilayer\ED_TBG\Helical_trilayer\Chern_mosaic\split_band\ED_spectrum\scan_waa\theta_1.44_sublattice_4_6_8\N36_HF_2valley\Chern')
 load Chern_theta1.44_waa0.6_epsilon4_Np12_Lflx_6_K1.mat
 
 
@@ -338,7 +338,7 @@ subplot('Position',pos);
 
 load("D:\My Documents\Code\matlab\m\twist_bilayer\ED_TBG\arXiv2405_08887\data\flatter\mymap.mat")
 
-addpath('D:\My Documents\Code\matlab\m\twist_bilayer\ED_TBG\Helical_trilayer\Chern_mosaic\split_band\ED_spectrum\scan_waa\theta_1.44_sublattice_4_6_8\N36_HF_2valley\paircorrel')
+%addpath('D:\My Documents\Code\matlab\m\twist_bilayer\ED_TBG\Helical_trilayer\Chern_mosaic\split_band\ED_spectrum\scan_waa\theta_1.44_sublattice_4_6_8\N36_HF_2valley\paircorrel')
 
 load Sq_36_12_waa0.6.mat;
 

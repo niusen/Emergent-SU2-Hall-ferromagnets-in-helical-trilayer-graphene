@@ -16,7 +16,7 @@ length_y=0.34;
 pos=[pos_x0,pos_y0+0.48,length_x,length_y];
 subplot('Position',pos);
 nK=2;
-addpath('D:\My Documents\Code\matlab\m\twist_bilayer\ED_TBG\Helical_trilayer\Chern_mosaic\split_band')
+%addpath('D:\My Documents\Code\matlab\m\twist_bilayer\ED_TBG\Helical_trilayer\Chern_mosaic\split_band')
 stack="ABA";%"ABA","AAA"
 a0 = 2.46e-10;
 % theta_ = 1.1322795155315042;
@@ -131,7 +131,7 @@ xticklabels({'K','K^{\prime}','M','\Gamma','K'})
 
 
 %%%%%%
-addpath('D:\My Documents\Code\matlab\m\twist_bilayer\ED_TBG\Helical_trilayer\Chern_mosaic\split_band\ED_spectrum\scan_waa\theta_1.44_sublattice_4_6_8\HF_energy_2valley');
+%addpath('D:\My Documents\Code\matlab\m\twist_bilayer\ED_TBG\Helical_trilayer\Chern_mosaic\split_band\ED_spectrum\scan_waa\theta_1.44_sublattice_4_6_8\HF_energy_2valley');
 load e1theta1.44_epsilon4_waa0.6_L24.mat;
 
 L0=sqrt(length(E_band1));
@@ -316,7 +316,7 @@ my_colormap=[my_colormap1;my_colormap2];
 
 pos=[pos_x0,pos_y0,length_x,length_y];
 subplot('Position',pos);
-addpath('D:\My Documents\Code\matlab\m\twist_bilayer\ED_TBG\Helical_trilayer\Chern_mosaic\split_band\ED_spectrum\scan_waa\theta_1.44_sublattice_4_6_8\N27')
+%addpath('D:\My Documents\Code\matlab\m\twist_bilayer\ED_TBG\Helical_trilayer\Chern_mosaic\split_band\ED_spectrum\scan_waa\theta_1.44_sublattice_4_6_8\N27')
 load("Egap_Np18.mat");
 Egap=treat_negative(Egap);
 imagesc('XData',waa_set,'CData',Egap);
@@ -335,7 +335,7 @@ text(-0.42,1.2,'(c)',  'Interpreter', 'latex', 'fontsize', 15);
 
 pos=[pos_x0,pos_y0-y_distance,length_x,length_y];
 subplot('Position',pos);
-addpath('D:\My Documents\Code\matlab\m\twist_bilayer\ED_TBG\Helical_trilayer\Chern_mosaic\split_band\ED_spectrum\scan_waa\theta_1.44_sublattice_4_6_8\N27_HF_2valley')
+%addpath('D:\My Documents\Code\matlab\m\twist_bilayer\ED_TBG\Helical_trilayer\Chern_mosaic\split_band\ED_spectrum\scan_waa\theta_1.44_sublattice_4_6_8\N27_HF_2valley')
 load("Egap_Np18_HF.mat");
 Egap=treat_negative(Egap);
 imagesc('XData',waa_set,'CData',Egap);
@@ -351,7 +351,7 @@ text(-0.4,0.7,'QHC, $\nu_{\rm{total}}=3+2/3$',  'Interpreter', 'latex', 'fontsiz
 
 pos=[pos_x0,pos_y0-y_distance*2,length_x,length_y];
 subplot('Position',pos);
-addpath('D:\My Documents\Code\matlab\m\twist_bilayer\ED_TBG\Helical_trilayer\Chern_mosaic\split_band\ED_spectrum\scan_waa\theta_1.44_sublattice_4_6_8\N28')
+%addpath('D:\My Documents\Code\matlab\m\twist_bilayer\ED_TBG\Helical_trilayer\Chern_mosaic\split_band\ED_spectrum\scan_waa\theta_1.44_sublattice_4_6_8\N28')
 load("Egap_Np14.mat");
 Egap=treat_negative(Egap);
 imagesc('XData',waa_set,'CData',Egap);
@@ -366,7 +366,7 @@ text(-0.4,0.7,'QHF, $\nu=1/2$',  'Interpreter', 'latex', 'fontsize', 12);
 
 pos=[pos_x0,pos_y0-y_distance*3,length_x,length_y];
 subplot('Position',pos);
-addpath('D:\My Documents\Code\matlab\m\twist_bilayer\ED_TBG\Helical_trilayer\Chern_mosaic\split_band\ED_spectrum\scan_waa\theta_1.44_sublattice_4_6_8\N28_HF_2valley')
+%addpath('D:\My Documents\Code\matlab\m\twist_bilayer\ED_TBG\Helical_trilayer\Chern_mosaic\split_band\ED_spectrum\scan_waa\theta_1.44_sublattice_4_6_8\N28_HF_2valley')
 load("Egap_Np14_HF.mat");
 Egap=treat_negative(Egap);
 imagesc('XData',waa_set,'CData',Egap);
@@ -382,7 +382,7 @@ text(-0.4,0.7,'QHF, $\nu_{\rm{total}}=3+1/2$',  'Interpreter', 'latex', 'fontsiz
 
 pos=[pos_x0,pos_y0-y_distance*4,length_x,length_y];
 subplot('Position',pos);
-addpath('D:\My Documents\Code\matlab\m\twist_bilayer\ED_TBG\Helical_trilayer\Chern_mosaic\split_band\ED_spectrum\scan_waa\theta_1.44_sublattice_4_6_8\N24A')
+%addpath('D:\My Documents\Code\matlab\m\twist_bilayer\ED_TBG\Helical_trilayer\Chern_mosaic\split_band\ED_spectrum\scan_waa\theta_1.44_sublattice_4_6_8\N24A')
 load("Egap_Np8.mat");
 Egap=treat_negative(Egap);
 imagesc('XData',waa_set,'CData',Egap);
@@ -398,7 +398,7 @@ text(-0.4,0.7,'FCI, $\nu=1/3$',  'Interpreter', 'latex', 'fontsize', 12);
 
 pos=[pos_x0,pos_y0-y_distance*5,length_x,length_y];
 subplot('Position',pos);
-addpath('D:\My Documents\Code\matlab\m\twist_bilayer\ED_TBG\Helical_trilayer\Chern_mosaic\split_band\ED_spectrum\scan_waa\theta_1.44_sublattice_4_6_8\N24A_HF_2valley')
+%addpath('D:\My Documents\Code\matlab\m\twist_bilayer\ED_TBG\Helical_trilayer\Chern_mosaic\split_band\ED_spectrum\scan_waa\theta_1.44_sublattice_4_6_8\N24A_HF_2valley')
 load("Egap_Np8_HF.mat");
 Egap=treat_negative(Egap);
 imagesc('XData',waa_set,'CData',Egap);
